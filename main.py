@@ -6,7 +6,7 @@ import time
 # Variable to store the last sent status
 last_sent_status = None
 
-# Function to fetch URL content with retries
+# Function to fetch URL content with retries 3
 def fetch_url_with_retry(url, max_retries=7, delay=1):
     retries = 0
     while retries < max_retries:
